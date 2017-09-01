@@ -6,6 +6,9 @@ ADD src/ /src
 # Define working directory
 WORKDIR /src
 
+# install leapjs
+RUN npm install leapjs
+
 # Install app dependencies
 RUN npm install
 
